@@ -19,19 +19,25 @@
         </style>
     </head>
     <body>
+        <div id="top">
         This is the body of this index page!
         This is the master.
         The master changes are working for me.
+        </div>
+        <div id="middle">
         SELECT*FROMflights;SELECTorigin,destinationFROMfl<br>;
         SELECT*FROMflightsWHEREid=3;SELECT*FROMflightsWHEREorigin=
         <br>'New York';SELECT*FROMflightsWHEREduration>500;SELECT*FROMflight
         <br>sWHEREdestination='Paris'ANDduration>500;SELECT
         <br>*FROMflightsWHEREdestination='Paris'ORduration>500;SELECTAVG
         <br>(duration)FROMflightsWHEREorigin='New York'
+        </div>
+        <div id="bottom">
         <br>;SELECT*FROMflightsWHEREoriginLIKE'%a%';SELECT*FROMfligh
         <br>tsLIMIT2;SELECT*FROMflightsORDERBYdurationASC;SELECT*FROMflights
         <br>ORDERBYdurationASCLIMIT3;SELECTorigin,COUNT(*)FROMflightsGROUPBYorigin;
         <br>SELECTorigin,COUNT(*)FROMflightsGROUPBYoriginHAVINGCOUNT(*)>
+        </div>
         <br>
         <br>
         <br>
