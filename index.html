@@ -34,6 +34,11 @@
                 color: red;
                 background-color: yellow;
             }
+            @media print {
+                .screen-only {
+                    display: none;
+                }
+            }
         </style>
     </head>
     <body>
@@ -42,6 +47,8 @@
         This is my feature branch.<br>
         This is the feature branch that is helping me see new changes.<br>
         The feature is bright.<br>
+    </p>
+        <p class="screen-only">
         This is another line of text in the feature.<br>
     </p>
         </div>
